@@ -1,0 +1,48 @@
+
+#centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.logn {
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.logn h2 {
+    margin: 5px;
+}
+
+.logn input {
+    background: none;
+    border-color: white;
+    margin: 5px;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+}
+
+.logn button {
+    border-color: white;
+    margin: 5px;
+    border-radius: 20px;
+    color: white;
+    background: none;
+}
+
+.login-btn {
+    color: yellow;
+    display: inline-block;
+    
+
+}
